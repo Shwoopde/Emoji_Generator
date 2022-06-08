@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emoji Generator</h1>
+    </header>
+    <main>
+        <div id="emoji-container" class="emoji-container">
+            <placeholder="emoji-placeholder">whata will you get?</placeholder>
+
+        </div>
+        <div id="emoji-generator" class="emoji-generator">
+            <input type="range" id="emoji-slider" min="1" max="20" value="1" class="slider">
+            <p>Number of emojis you want: <span id="emoji-number-value"></span></p>
+            <button id="emoji-button" class="emoji-btn">Generate Emoji</button>
+            <button id="emoji-button-reset" class="emoji-reset-btn">Reset</button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

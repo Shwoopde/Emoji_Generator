@@ -1,0 +1,249 @@
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: linear-gradient(to bottom, #AE00F8, #3C55EC);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+header{
+  margin: 4em 0 0 0;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 2em;
+}
+.emoji-container{
+  font-size: 60px;
+  color: rgb(170, 170, 170);
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 1em;
+}
+p{
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000;
+  color: white;
+}
+#emoji-number-value{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 4px rgb(61, 47, 184);
+}
+.emoji-btn{
+  background-color: #3cecd4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 16px;
+  margin: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.emoji-reset-btn{
+  background-color: #f38888;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 16px;
+  margin: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+/*generated with Input range slider CSS style generator (version 20211225)
+https://toughengineer.github.io/demo/slider-styler*/
+input[type=range].styled-slider {
+  height: 2.8em;
+  -webkit-appearance: none;
+}
+
+/*progress support*/
+input[type=range].styled-slider.slider-progress {
+  --range: calc(var(--max) - var(--min));
+  --ratio: calc((var(--value) - var(--min)) / var(--range));
+  --sx: calc(0.5 * 2em + var(--ratio) * (100% - 2em));
+}
+
+input[type=range].styled-slider:focus {
+  outline: none;
+}
+
+/*webkit*/
+input[type=range].styled-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 5em;
+  height: 2em;
+  border-radius: 1em;
+  background: linear-gradient(to right, #AE00F8, #3C55EC);
+  border: none;
+  box-shadow: 1px 1px 4px #000000;
+  margin-top: calc(max((1em - 1px - 1px) * 0.5,0px) - 2em * 0.5);
+}
+
+input[type=range].styled-slider::-webkit-slider-runnable-track {
+  height: 1em;
+  border: 1px solid #b2b2b2;
+  border-radius: 0.5em;
+  background: #efefef;
+  box-shadow: 1px 1px 2px #000000;
+}
+
+input[type=range].styled-slider::-webkit-slider-thumb:hover {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:hover::-webkit-slider-runnable-track {
+  background: #e5e5e5;
+  border-color: #9a9a9a;
+}
+
+input[type=range].styled-slider::-webkit-slider-thumb:active {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:active::-webkit-slider-runnable-track {
+  background: #f5f5f5;
+  border-color: #c1c1c1;
+}
+
+input[type=range].styled-slider.slider-progress::-webkit-slider-runnable-track {
+  background: linear-gradient(#007cf8,#007cf8) 0/var(--sx) 100% no-repeat, #efefef;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-webkit-slider-runnable-track {
+  background: linear-gradient(#0061c3,#0061c3) 0/var(--sx) 100% no-repeat, #e5e5e5;
+}
+
+input[type=range].styled-slider.slider-progress:active::-webkit-slider-runnable-track {
+  background: linear-gradient(#2f98f9,#2f98f9) 0/var(--sx) 100% no-repeat, #f5f5f5;
+}
+
+/*mozilla*/
+input[type=range].styled-slider::-moz-range-thumb {
+  width: 5em;
+  height: 2em;
+  border-radius: 1em;
+  background: linear-gradient(to right, #AE00F8, #3C55EC);
+  border: none;
+  box-shadow: 1px 1px 4px #000000;
+}
+
+input[type=range].styled-slider::-moz-range-track {
+  height: max(calc(1em - 1px - 1px),0px);
+  border: 1px solid #b2b2b2;
+  border-radius: 0.5em;
+  background: #efefef;
+  box-shadow: 1px 1px 2px #000000;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:hover {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:hover::-moz-range-track {
+  background: #e5e5e5;
+  border-color: #9a9a9a;
+}
+
+input[type=range].styled-slider::-moz-range-thumb:active {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:active::-moz-range-track {
+  background: #f5f5f5;
+  border-color: #c1c1c1;
+}
+
+input[type=range].styled-slider.slider-progress::-moz-range-track {
+  background: linear-gradient(#007cf8,#007cf8) 0/var(--sx) 100% no-repeat, #efefef;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-moz-range-track {
+  background: linear-gradient(#0061c3,#0061c3) 0/var(--sx) 100% no-repeat, #e5e5e5;
+}
+
+input[type=range].styled-slider.slider-progress:active::-moz-range-track {
+  background: linear-gradient(#2f98f9,#2f98f9) 0/var(--sx) 100% no-repeat, #f5f5f5;
+}
+
+/*ms*/
+input[type=range].styled-slider::-ms-fill-upper {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-fill-lower {
+  background: transparent;
+  border-color: transparent;
+}
+
+input[type=range].styled-slider::-ms-thumb {
+  width: 5em;
+  height: 2em;
+  border-radius: 1em;
+  background: linear-gradient(to right, #AE00F8, #3C55EC);
+  border: none;
+  box-shadow: 1px 1px 4px #000000;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-track {
+  height: 1em;
+  border-radius: 0.5em;
+  background: #efefef;
+  border: 1px solid #b2b2b2;
+  box-shadow: 1px 1px 2px #000000;
+  box-sizing: border-box;
+}
+
+input[type=range].styled-slider::-ms-thumb:hover {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:hover::-ms-track {
+  background: #e5e5e5;
+  border-color: #9a9a9a;
+}
+
+input[type=range].styled-slider::-ms-thumb:active {
+  background: #AE00F8;
+}
+
+input[type=range].styled-slider:active::-ms-track {
+  background: #f5f5f5;
+  border-color: #c1c1c1;
+}
+
+input[type=range].styled-slider.slider-progress::-ms-fill-lower {
+  height: max(calc(1em - 1px - 1px),0px);
+  border-radius: 0.5em 0 0 0.5em;
+  margin: -1px 0 -1px -1px;
+  background: #007cf8;
+  border: 1px solid #b2b2b2;
+  border-right-width: 0;
+}
+
+input[type=range].styled-slider.slider-progress:hover::-ms-fill-lower {
+  background: #0061c3;
+  border-color: #9a9a9a;
+}
+
+input[type=range].styled-slider.slider-progress:active::-ms-fill-lower {
+  background: #2f98f9;
+  border-color: #c1c1c1;
+}
